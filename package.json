@@ -3,10 +3,10 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --port 8040",
     "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
+    "ios": "expo start --ios --port 8040",
+    "web": "expo start --web --port 8040",
     "test": "jest --watchAll"
   },
   "jest": {
